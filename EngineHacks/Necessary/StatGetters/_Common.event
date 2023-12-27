@@ -1,0 +1,38 @@
+#ifndef MODULAR_GETTER_COMMON_EVENT
+#define MODULAR_GETTER_COMMON_EVENT
+#define rEquipmentBonus(stat) "rAdd; rWithConstant(stat); rCallExternal(GetEquipmentStatBonus^1)"
+
+prHalveIfRescuing:
+	rIfUnitHasState(US_RESCUING)
+		rIfUnitHasNotSkill(SaviorID)
+			rHalved
+
+prHalveIfCapturing:
+	#incbin "_asm/HalveIfCapturing.bin"
+	POIN Is_Capture_Set
+	
+prDefenderBonus:
+	rIfUnitHasSkill(DefenderID)
+		rIfUnitHasState(US_RESCUING)
+			rAddConst(2)
+
+prDelivererBonus:
+	rIfUnitHasSkill(DelivererID)
+		rIfUnitHasState(US_RESCUING)
+			rAddConst(2)
+			
+prStrongBonus:
+	rIfUnitHasSkill(StrongID)
+		rAddConst(5)
+	
+prMinZero:
+{
+	rIf(Check)
+	ConstantZero:
+	rConstant(0)
+
+	Check:
+	prCheckLessThan(ConstantZero)
+}
+		   
+#endif // MODULAR_GETTER_COMMON_EVENT

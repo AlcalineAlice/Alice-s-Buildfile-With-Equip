@@ -1,0 +1,14 @@
+SkillIcons=$B41694
+Skill_Getter=$B402B8
+DragonVeinsIcon_Unit67Graphic=$B333F0
+RTextLoop=$B409A8
+SkillDescGetter=$B40758
+SkillTester=$B40534
+portrait_0x01_face_Graphic=$B4CD1C
+portrait_0x01_mouth_Graphic=$B4DD20
+portrait_0x01_pal_Graphic=$B4E320
+portrait_0x01_minimug_Graphic=$B4E340
+GetDebuffs=$B3C390
+SSS_Flag=$B8AB14
+SSS_PageTSATable=$B8AB18
+SSS_StatsBoxTSA=$B8AB1C
