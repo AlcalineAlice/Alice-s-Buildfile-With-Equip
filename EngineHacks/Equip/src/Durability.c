@@ -140,7 +140,7 @@ void New_SaveUnitFromBattle(Unit* unit, BattleUnit* battleUnit){
 
 	unit->maxHP += battleUnit->changeHP;
 	unit->pow   += battleUnit->changePow;
-	unit->mag   += battleUnit->changeMag;
+	//unit->mag   += battleUnit->changeMag;
 	unit->skl   += battleUnit->changeSkl;
 	unit->spd   += battleUnit->changeSpd;
 	unit->def   += battleUnit->changeDef;
@@ -201,7 +201,7 @@ void New_InitBattleUnitFromUnit(BattleUnit* battleUnit, Unit* unit){
 
 	battleUnit->unit.maxHP = GetUnitMaxHp(unit);
 	battleUnit->unit.pow = GetUnitPower(unit);
-	battleUnit->unit.mag = GetUnitMagic(unit);
+	//battleUnit->unit.mag = GetUnitMagic(unit);
 	battleUnit->unit.skl = GetUnitSkill(unit);
 	battleUnit->unit.spd = GetUnitSpeed(unit);
 	battleUnit->unit.def = GetUnitDefense(unit);
@@ -220,7 +220,7 @@ void New_InitBattleUnitFromUnit(BattleUnit* battleUnit, Unit* unit){
 
 	battleUnit->changeHP = 0;
 	battleUnit->changePow = 0;
-	battleUnit->changeMag = 0;
+	//battleUnit->changeMag = 0;
 	battleUnit->changeSkl = 0;
 	battleUnit->changeSpd = 0;
 	battleUnit->changeDef = 0;
