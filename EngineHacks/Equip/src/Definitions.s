@@ -19,7 +19,7 @@ SET_FUNC CheckForStatCaps, (0x80181C8+1)
 
 SET_FUNC SetUnitNewStatus, (0x80178D8+1)
 
-//SET_FUNC GetUnitMagic, (0x80191B8+1)
+SET_FUNC GetUnitMagic, (0x80191B8+1)
 
 SET_FUNC GetUnitMovement, (0x8019224+1)
 
