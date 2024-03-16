@@ -104,14 +104,14 @@ int BoldFighter(struct BattleUnit* bunitA, struct BattleUnit* bunitB) {
 int QuickRiposte(struct BattleUnit* bunitA, struct BattleUnit* bunitB) { 
 	if (gBattleStats.config & (BATTLE_CONFIG_REAL | BATTLE_CONFIG_SIMULATE)) { // Quick Riposte as asm did this for some reason:
 	//@pre-battle data pointer, gonna check if a target has been selected or the fight has started (0x02 if targeting someone, 0x01 if battle started)
-		if (bunitA->hpInitial >= (bunitA->unit.maxHP / 2)) { 
+		if (bunitA->hpInitial >= (bunitA->unit.maxHP)) { 
 			if (SkillTester(&bunitA->unit, QuickRiposteID_Link)) { 
 				if (bunitA == &gBattleTarget) { 
 					return ForceDouble; 
 				} 
 			} 
 		} 
-		if (bunitB->hpInitial >= (bunitB->unit.maxHP / 2)) { 
+		if (bunitB->hpInitial >= (bunitB->unit.maxHP)) { 
 			if (SkillTester(&bunitB->unit, QuickRiposteID_Link)) { 
 				if (bunitB == &gBattleTarget) { 
 					return CannotDouble; 

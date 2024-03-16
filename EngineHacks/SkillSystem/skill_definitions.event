@@ -590,7 +590,7 @@
 
 //Quick Riposte: If defending and HP is 50% or higher, unit doubles and attacker does not double.
 //By Sme
-#define QuickRiposteID 255
+#define QuickRiposteID 251
 
 
 //Quick/Slow Burn: Hit and Avoid bonus increasing or decreasing each turn, maximum +15.
@@ -614,7 +614,7 @@
 #define KestrelStanceID 248
 #define MirrorStanceID 255
 #define ReadyStanceID 255
-#define SteadyStanceID 251
+#define SteadyStanceID 255
 #define SturdyStanceID 255
 #define SwiftStanceID 255
 #define WardingStanceID 250

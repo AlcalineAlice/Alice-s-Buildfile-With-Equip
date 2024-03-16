@@ -229,6 +229,9 @@ POP
   #include "Necessary/Popups.event"
   
   #include "Necessary/CalcLoops/CalcLoops.event"
+  
+ //Extra FEBuilder patches
+  #include "FEBuilder/HacksInstaller.event"
 
   // Save/Suspend Expansion
     MESSAGE "Using EMS Save/Suspend Expansion"

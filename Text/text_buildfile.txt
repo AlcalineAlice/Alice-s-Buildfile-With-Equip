@@ -3,10 +3,19 @@
  Weapon rank increased to [X]
 
 # 0x0094
-HP Bars[.][X]
+Other Animations[.][X]
 
 # 0x00B2
-Set health bar display[X]
+Toggle Dance and Staff animations[X]
+
+# 0x009D
+HP Bars[.][X]
+
+# 0x00B9
+Toggle HP Bars display[X]
+
+# 0x0518
+Freeze[X]
 
 #0x3A LearnedSkillText
 //first text ID in the free block
@@ -121,3 +130,7 @@ a skill when used.[X]
 #include "skilldesc_text.txt"
 
 #include "unitinfo_text.txt"
+
+## FreezeDesc
+You're frozen! You can still[N]
+act, but you can't move![X]

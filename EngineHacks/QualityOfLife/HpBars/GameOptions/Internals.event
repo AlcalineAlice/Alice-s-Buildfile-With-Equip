@@ -5,13 +5,13 @@
 #define UnitOpt 2
 #define CombatOpt 0xA 
 #define ShowObjectiveOpt 0xE 
-#define HPBarsOpt 0xB 
+#define HPBarsOpt 0xD 
 #define AutocursorOpt 3
 #define AutoendTurnsOpt 0xC 
 #define MusicOpt 6
 #define SoundFXOpt 7
 #define WindowColorOpt 8 
-
+#define StaffDanceAnimOpt 0xB
 ALIGN 4
 GameOptionsTable:
 //	Item Name	Selector 1 Help	Selector 1 Text	Selector 1 Display Position	Selector 1 Unknown 2	Selector 2 Help	Selector 2 Text	Selector 2 Display position	Selector 2 Unknown 2	Selector 3 Help	Selector 3 Text	Selector 3 Display Position	Selector 3 Unknown 2	Selector 4 Help	Selector 4 Text	Selector 4 Display position	Selector 4 Unknown 2	Icon (value * 8)	ASM Function

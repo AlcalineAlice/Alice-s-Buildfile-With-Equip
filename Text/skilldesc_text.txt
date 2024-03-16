@@ -907,8 +907,8 @@ Aptitude: +20 to[N]
 all growth rates.[X]
 
 ## SD_QuickRiposte
-Quick Riposte: If defending and[N]
-HP is 50% or higher, unit doubles[N]
+Quick Riposte: If defending[N]
+at full HP, unit doubles[N]
 and attacker cannot double.[X]
 
 ## SD_Resolve
@@ -1051,8 +1051,8 @@ Fortune: This unit[N]
 cannot be crit.[X]
 
 ## SD_Assassinate
-Assassinate: When initiating battle[N]
-at 1 range: +2 Damage, double[N]
+Alacrity: When initiating[N]
+battle at 1 range, double[N]
 attacks occur before counter.[X]
 
 ## SD_ArcaneBlade
@@ -1671,7 +1671,7 @@ Defender: While unit is rescuing[N]
 ally, grants +2 to all combat stats.[X]
 
 ## SD_Deliverer
-Deliverer: While unit is rescuing
+Deliverer: While unit is rescuing[N]
 ally, grants +2 Movement.[X]
 
 ## SD_DivineProtection

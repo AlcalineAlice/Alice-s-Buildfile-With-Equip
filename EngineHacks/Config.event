@@ -70,7 +70,7 @@
 #define FREEZE_HACK
 
 //If uncommented, will enable HP Bars.
-//#define HP_BARS
+#define HP_BARS
 
 //If uncommented, will enable Improved Sound Mixer.
 #define IMPROVED_SOUND_MIXER
@@ -134,7 +134,7 @@
 
 // If uncommented, Leadership Stars will be implemented.
 // Go to LeadershipStars/LeadershipStars.event to edit settings.
-#define LEADERSHIP_STARS
+// #define LEADERSHIP_STARS
 
 // If uncommented, Biorhythm will be implemented.
 // Go to "Biorhythm/Biorhythm.event" to edit settings.
