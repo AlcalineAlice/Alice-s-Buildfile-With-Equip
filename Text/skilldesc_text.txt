@@ -1791,4 +1791,7 @@ Winged Rider: Grants the user[N]
 Wise Turtle: If foe’s Move > unit’s[N]
 Move, -4 Damage taken.[X]
 
+## SD_LadyBlade
+If weapon wielder is female,[N]
+doubles weapon might.[X]
 
