@@ -532,6 +532,12 @@ POIN SkillTester
 POIN GetUnitsInRange
 WORD PhilandererID
 
+ALIGN 4
+LadyBlade:
+#incbin "LadyBlade/LadyBlade.dmp"
+POIN SkillTester
+WORD LadyBladeID
+
 #include "KeenFighter/Installer.event" 
 
 

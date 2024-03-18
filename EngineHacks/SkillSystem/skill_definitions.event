@@ -129,7 +129,7 @@
 
 //Armorboost: +4 attack and defense against armored enemies if within 3 spaces of an armored ally.
 //By Sme
-#define ArmorboostID 156
+#define ArmorboostID 255
 #define ArmorBoostID ArmorboostID //Alias\
 
 
@@ -591,6 +591,10 @@
 //Quick Riposte: If defending and HP is 50% or higher, unit doubles and attacker does not double.
 //By Sme
 #define QuickRiposteID 251
+
+//Lady Blade: If the unit is female, increase weapon might
+//By Snerdels
+#define LadyBladeID 156
 
 
 //Quick/Slow Burn: Hit and Avoid bonus increasing or decreasing each turn, maximum +15.

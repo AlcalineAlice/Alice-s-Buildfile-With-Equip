@@ -653,6 +653,9 @@ ORG SkillIcon(AptitudeID)
 ORG SkillIcon(QuickRiposteID)
 #incbin "SkillIcons/QuickRiposte.dmp"
 
+ORG SkillIcon(LadyBladeID)
+#incbin "SkillIcons/LadyBlade.dmp"
+
 ORG SkillIcon(ResolveID)
 #incbin "SkillIcons/Resolve.dmp"
 
