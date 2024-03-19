@@ -137,6 +137,26 @@ WORD ACTION_SWARP
 
 //
 
+//Bit is defined in AuraSkills/ArmorMarch/ArmorMarch.event
+//armormarchskill.s also unsets the bit on the phase after the unit acts
+ALIGN 4
+Transmute:
+#incbin "Transmute/Transmute.dmp"
+POIN SkillTester
+WORD TransmuteID
+POIN TransmuteEvent
+WORD DebuffTableRam
+WORD TransmuteBit
+WORD 8 //size of a debuff table entry
+#include "Transmute/TransmuteEvent.event"
+
+ALIGN 4
+prTransmuteCheck: //check if the bit is set and if so give the unit some stats
+#incbin "Transmute/prTransmuteCheck.dmp"
+WORD DebuffTableRam
+WORD TransmuteBit
+WORD 8 //size of a debuff table entry
+
 ALIGN 4
 SalvageBlow:
 #incbin "SalvageBlow/SalvageBlow.dmp"

@@ -1,0 +1,5 @@
+TransmuteEvent:
+CAM1 0xFFFF
+SOUN 0x00AA
+NoFade
+ENDA
