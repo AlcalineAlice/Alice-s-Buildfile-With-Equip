@@ -10,10 +10,9 @@ POP
 
 ALIGN 4 
 TurnCalcLoop_Silent: // Effects that do not pause the game 
-POIN ProcessDebuffs VigorDanceReset // Standalone things that loop through all units and do not pause the game 
+POIN ProcessDebuffs ArmorMarch_StartOfTurn VigorDanceReset // Standalone things that loop through all units and do not pause the game 
 WORD 0 
 
-//ArmorMarch_StartOfTurn
 
 ALIGN 4 
 EndOfTurnCalcLoop: 

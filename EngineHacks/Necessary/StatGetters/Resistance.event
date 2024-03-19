@@ -6,7 +6,7 @@
 pResistanceModifiers: // Resistance
 	POIN prAddUnitResistance prHalveIfCapturing 
 	POIN prDebuffRes StrongCon
-	POIN prAddEquipResistance prItemPassiveResistance prRallyRes prAddPureWaterBarrierMod prLifeAndDeathMinus prSkillFury prFortressResistanceRes prDefiantRes prPushRes prDefenderBonus prTransmuteCheck prEquipmentBonusRes
+	POIN prAddEquipResistance prItemPassiveResistance prRallyRes prAddPureWaterBarrierMod prLifeAndDeathMinus prSkillFury prFortressResistanceRes prDefiantRes prPushRes prDefenderBonus prEquipmentBonusRes
 	#ifdef DEBUFFS_MIN_ZERO
 	POIN prMinZero
 	#endif
